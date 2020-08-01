@@ -11,7 +11,7 @@ public class GetQuote extends BaseClass {
 	TestData td = new TestData();
 
 	//test to purchase a product and verify the price
-	@Test
+	@Test (invocationCount = 100)
 	public void purchaseProduct() throws Exception {
 		DGProducts.init(driver, url)
 		.selectProduct()

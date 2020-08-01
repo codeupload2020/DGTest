@@ -1,49 +1,1213 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="100" passed="100">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="38262" started-at="2020-08-01T15:18:31Z" finished-at="2020-08-01T15:19:09Z">
+  <suite name="Suite" duration-ms="1228703" started-at="2020-08-01T19:26:56Z" finished-at="2020-08-01T19:47:24Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="38262" started-at="2020-08-01T15:18:31Z" finished-at="2020-08-01T15:19:09Z">
+    <test name="Test" duration-ms="1228703" started-at="2020-08-01T19:26:56Z" finished-at="2020-08-01T19:47:24Z">
       <class name="testCases.GetQuote">
-        <test-method status="PASS" signature="setupClass()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupClass" is-config="true" duration-ms="272" started-at="2020-08-01T16:18:31Z" finished-at="2020-08-01T16:18:31Z">
+        <test-method status="PASS" signature="setupClass()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupClass" is-config="true" duration-ms="268" started-at="2020-08-01T20:26:56Z" finished-at="2020-08-01T20:26:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupClass -->
-        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3342" started-at="2020-08-01T16:18:31Z" finished-at="2020-08-01T16:18:35Z">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3356" started-at="2020-08-01T20:26:56Z" finished-at="2020-08-01T20:26:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="9486" started-at="2020-08-01T16:18:35Z" finished-at="2020-08-01T16:18:44Z">
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8819" started-at="2020-08-01T20:26:59Z" finished-at="2020-08-01T20:27:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- purchaseProduct -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="678" started-at="2020-08-01T16:18:44Z" finished-at="2020-08-01T16:18:45Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="609" started-at="2020-08-01T20:27:08Z" finished-at="2020-08-01T20:27:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3119" started-at="2020-08-01T16:18:45Z" finished-at="2020-08-01T16:18:48Z">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3142" started-at="2020-08-01T20:27:09Z" finished-at="2020-08-01T20:27:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8194" started-at="2020-08-01T16:18:48Z" finished-at="2020-08-01T16:18:56Z">
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8673" started-at="2020-08-01T20:27:12Z" finished-at="2020-08-01T20:27:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- purchaseProduct -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="680" started-at="2020-08-01T16:18:56Z" finished-at="2020-08-01T16:18:57Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="592" started-at="2020-08-01T20:27:21Z" finished-at="2020-08-01T20:27:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3140" started-at="2020-08-01T16:18:57Z" finished-at="2020-08-01T16:19:00Z">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3148" started-at="2020-08-01T20:27:21Z" finished-at="2020-08-01T20:27:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8651" started-at="2020-08-01T16:19:00Z" finished-at="2020-08-01T16:19:09Z">
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8341" started-at="2020-08-01T20:27:24Z" finished-at="2020-08-01T20:27:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- purchaseProduct -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="680" started-at="2020-08-01T16:19:09Z" finished-at="2020-08-01T16:19:09Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="609" started-at="2020-08-01T20:27:33Z" finished-at="2020-08-01T20:27:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3109" started-at="2020-08-01T20:27:33Z" finished-at="2020-08-01T20:27:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8828" started-at="2020-08-01T20:27:36Z" finished-at="2020-08-01T20:27:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="592" started-at="2020-08-01T20:27:45Z" finished-at="2020-08-01T20:27:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3096" started-at="2020-08-01T20:27:46Z" finished-at="2020-08-01T20:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8744" started-at="2020-08-01T20:27:49Z" finished-at="2020-08-01T20:27:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="591" started-at="2020-08-01T20:27:58Z" finished-at="2020-08-01T20:27:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3152" started-at="2020-08-01T20:27:58Z" finished-at="2020-08-01T20:28:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8433" started-at="2020-08-01T20:28:01Z" finished-at="2020-08-01T20:28:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="594" started-at="2020-08-01T20:28:10Z" finished-at="2020-08-01T20:28:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3127" started-at="2020-08-01T20:28:10Z" finished-at="2020-08-01T20:28:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8263" started-at="2020-08-01T20:28:14Z" finished-at="2020-08-01T20:28:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="609" started-at="2020-08-01T20:28:22Z" finished-at="2020-08-01T20:28:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3126" started-at="2020-08-01T20:28:22Z" finished-at="2020-08-01T20:28:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8366" started-at="2020-08-01T20:28:26Z" finished-at="2020-08-01T20:28:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="592" started-at="2020-08-01T20:28:34Z" finished-at="2020-08-01T20:28:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3092" started-at="2020-08-01T20:28:34Z" finished-at="2020-08-01T20:28:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8331" started-at="2020-08-01T20:28:38Z" finished-at="2020-08-01T20:28:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="593" started-at="2020-08-01T20:28:46Z" finished-at="2020-08-01T20:28:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3158" started-at="2020-08-01T20:28:46Z" finished-at="2020-08-01T20:28:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8499" started-at="2020-08-01T20:28:50Z" finished-at="2020-08-01T20:28:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="596" started-at="2020-08-01T20:28:58Z" finished-at="2020-08-01T20:28:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3140" started-at="2020-08-01T20:28:59Z" finished-at="2020-08-01T20:29:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8763" started-at="2020-08-01T20:29:02Z" finished-at="2020-08-01T20:29:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="608" started-at="2020-08-01T20:29:11Z" finished-at="2020-08-01T20:29:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3096" started-at="2020-08-01T20:29:11Z" finished-at="2020-08-01T20:29:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8273" started-at="2020-08-01T20:29:14Z" finished-at="2020-08-01T20:29:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="623" started-at="2020-08-01T20:29:23Z" finished-at="2020-08-01T20:29:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3131" started-at="2020-08-01T20:29:23Z" finished-at="2020-08-01T20:29:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8324" started-at="2020-08-01T20:29:26Z" finished-at="2020-08-01T20:29:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="595" started-at="2020-08-01T20:29:35Z" finished-at="2020-08-01T20:29:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3148" started-at="2020-08-01T20:29:35Z" finished-at="2020-08-01T20:29:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8715" started-at="2020-08-01T20:29:38Z" finished-at="2020-08-01T20:29:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="594" started-at="2020-08-01T20:29:47Z" finished-at="2020-08-01T20:29:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3159" started-at="2020-08-01T20:29:48Z" finished-at="2020-08-01T20:29:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8520" started-at="2020-08-01T20:29:51Z" finished-at="2020-08-01T20:29:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="607" started-at="2020-08-01T20:29:59Z" finished-at="2020-08-01T20:30:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3136" started-at="2020-08-01T20:30:00Z" finished-at="2020-08-01T20:30:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="9109" started-at="2020-08-01T20:30:03Z" finished-at="2020-08-01T20:30:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="609" started-at="2020-08-01T20:30:12Z" finished-at="2020-08-01T20:30:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3144" started-at="2020-08-01T20:30:13Z" finished-at="2020-08-01T20:30:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8412" started-at="2020-08-01T20:30:16Z" finished-at="2020-08-01T20:30:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="593" started-at="2020-08-01T20:30:24Z" finished-at="2020-08-01T20:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3128" started-at="2020-08-01T20:30:25Z" finished-at="2020-08-01T20:30:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8681" started-at="2020-08-01T20:30:28Z" finished-at="2020-08-01T20:30:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="609" started-at="2020-08-01T20:30:37Z" finished-at="2020-08-01T20:30:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3156" started-at="2020-08-01T20:30:37Z" finished-at="2020-08-01T20:30:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8393" started-at="2020-08-01T20:30:41Z" finished-at="2020-08-01T20:30:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="608" started-at="2020-08-01T20:30:49Z" finished-at="2020-08-01T20:30:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3134" started-at="2020-08-01T20:30:50Z" finished-at="2020-08-01T20:30:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8774" started-at="2020-08-01T20:30:53Z" finished-at="2020-08-01T20:31:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="625" started-at="2020-08-01T20:31:02Z" finished-at="2020-08-01T20:31:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3119" started-at="2020-08-01T20:31:02Z" finished-at="2020-08-01T20:31:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8617" started-at="2020-08-01T20:31:05Z" finished-at="2020-08-01T20:31:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="593" started-at="2020-08-01T20:31:14Z" finished-at="2020-08-01T20:31:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3145" started-at="2020-08-01T20:31:14Z" finished-at="2020-08-01T20:31:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8490" started-at="2020-08-01T20:31:18Z" finished-at="2020-08-01T20:31:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="610" started-at="2020-08-01T20:31:26Z" finished-at="2020-08-01T20:31:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3146" started-at="2020-08-01T20:31:27Z" finished-at="2020-08-01T20:31:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8329" started-at="2020-08-01T20:31:30Z" finished-at="2020-08-01T20:31:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="622" started-at="2020-08-01T20:31:38Z" finished-at="2020-08-01T20:31:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3126" started-at="2020-08-01T20:31:39Z" finished-at="2020-08-01T20:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8588" started-at="2020-08-01T20:31:42Z" finished-at="2020-08-01T20:31:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="608" started-at="2020-08-01T20:31:51Z" finished-at="2020-08-01T20:31:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3138" started-at="2020-08-01T20:31:51Z" finished-at="2020-08-01T20:31:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8587" started-at="2020-08-01T20:31:54Z" finished-at="2020-08-01T20:32:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="593" started-at="2020-08-01T20:32:03Z" finished-at="2020-08-01T20:32:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3151" started-at="2020-08-01T20:32:03Z" finished-at="2020-08-01T20:32:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8606" started-at="2020-08-01T20:32:07Z" finished-at="2020-08-01T20:32:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="607" started-at="2020-08-01T20:32:15Z" finished-at="2020-08-01T20:32:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3134" started-at="2020-08-01T20:32:16Z" finished-at="2020-08-01T20:32:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8946" started-at="2020-08-01T20:32:19Z" finished-at="2020-08-01T20:32:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="608" started-at="2020-08-01T20:32:28Z" finished-at="2020-08-01T20:32:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3136" started-at="2020-08-01T20:32:29Z" finished-at="2020-08-01T20:32:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8137" started-at="2020-08-01T20:32:32Z" finished-at="2020-08-01T20:32:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="592" started-at="2020-08-01T20:32:40Z" finished-at="2020-08-01T20:32:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3135" started-at="2020-08-01T20:32:40Z" finished-at="2020-08-01T20:32:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="9817" started-at="2020-08-01T20:32:44Z" finished-at="2020-08-01T20:32:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="592" started-at="2020-08-01T20:32:53Z" finished-at="2020-08-01T20:32:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3150" started-at="2020-08-01T20:32:54Z" finished-at="2020-08-01T20:32:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8597" started-at="2020-08-01T20:32:57Z" finished-at="2020-08-01T20:33:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="591" started-at="2020-08-01T20:33:06Z" finished-at="2020-08-01T20:33:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3137" started-at="2020-08-01T20:33:06Z" finished-at="2020-08-01T20:33:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="9506" started-at="2020-08-01T20:33:09Z" finished-at="2020-08-01T20:33:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="607" started-at="2020-08-01T20:33:19Z" finished-at="2020-08-01T20:33:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3117" started-at="2020-08-01T20:33:20Z" finished-at="2020-08-01T20:33:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8166" started-at="2020-08-01T20:33:23Z" finished-at="2020-08-01T20:33:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="624" started-at="2020-08-01T20:33:31Z" finished-at="2020-08-01T20:33:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3111" started-at="2020-08-01T20:33:31Z" finished-at="2020-08-01T20:33:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8325" started-at="2020-08-01T20:33:35Z" finished-at="2020-08-01T20:33:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="591" started-at="2020-08-01T20:33:43Z" finished-at="2020-08-01T20:33:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3123" started-at="2020-08-01T20:33:43Z" finished-at="2020-08-01T20:33:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8342" started-at="2020-08-01T20:33:47Z" finished-at="2020-08-01T20:33:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="592" started-at="2020-08-01T20:33:55Z" finished-at="2020-08-01T20:33:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3143" started-at="2020-08-01T20:33:56Z" finished-at="2020-08-01T20:33:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8388" started-at="2020-08-01T20:33:59Z" finished-at="2020-08-01T20:34:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="633" started-at="2020-08-01T20:34:07Z" finished-at="2020-08-01T20:34:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3118" started-at="2020-08-01T20:34:08Z" finished-at="2020-08-01T20:34:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8531" started-at="2020-08-01T20:34:11Z" finished-at="2020-08-01T20:34:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="593" started-at="2020-08-01T20:34:19Z" finished-at="2020-08-01T20:34:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3148" started-at="2020-08-01T20:34:20Z" finished-at="2020-08-01T20:34:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8289" started-at="2020-08-01T20:34:23Z" finished-at="2020-08-01T20:34:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="608" started-at="2020-08-01T20:34:31Z" finished-at="2020-08-01T20:34:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3106" started-at="2020-08-01T20:34:32Z" finished-at="2020-08-01T20:34:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8538" started-at="2020-08-01T20:34:35Z" finished-at="2020-08-01T20:34:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="593" started-at="2020-08-01T20:34:44Z" finished-at="2020-08-01T20:34:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3119" started-at="2020-08-01T20:34:44Z" finished-at="2020-08-01T20:34:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8335" started-at="2020-08-01T20:34:47Z" finished-at="2020-08-01T20:34:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="592" started-at="2020-08-01T20:34:56Z" finished-at="2020-08-01T20:34:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3119" started-at="2020-08-01T20:34:56Z" finished-at="2020-08-01T20:34:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8470" started-at="2020-08-01T20:34:59Z" finished-at="2020-08-01T20:35:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="624" started-at="2020-08-01T20:35:08Z" finished-at="2020-08-01T20:35:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3140" started-at="2020-08-01T20:35:08Z" finished-at="2020-08-01T20:35:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8890" started-at="2020-08-01T20:35:12Z" finished-at="2020-08-01T20:35:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="593" started-at="2020-08-01T20:35:20Z" finished-at="2020-08-01T20:35:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3124" started-at="2020-08-01T20:35:21Z" finished-at="2020-08-01T20:35:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8759" started-at="2020-08-01T20:35:24Z" finished-at="2020-08-01T20:35:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="593" started-at="2020-08-01T20:35:33Z" finished-at="2020-08-01T20:35:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3145" started-at="2020-08-01T20:35:34Z" finished-at="2020-08-01T20:35:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8524" started-at="2020-08-01T20:35:37Z" finished-at="2020-08-01T20:35:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="592" started-at="2020-08-01T20:35:45Z" finished-at="2020-08-01T20:35:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3112" started-at="2020-08-01T20:35:46Z" finished-at="2020-08-01T20:35:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8618" started-at="2020-08-01T20:35:49Z" finished-at="2020-08-01T20:35:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="593" started-at="2020-08-01T20:35:58Z" finished-at="2020-08-01T20:35:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3152" started-at="2020-08-01T20:35:58Z" finished-at="2020-08-01T20:36:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8314" started-at="2020-08-01T20:36:01Z" finished-at="2020-08-01T20:36:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="608" started-at="2020-08-01T20:36:10Z" finished-at="2020-08-01T20:36:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3129" started-at="2020-08-01T20:36:10Z" finished-at="2020-08-01T20:36:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8492" started-at="2020-08-01T20:36:13Z" finished-at="2020-08-01T20:36:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="593" started-at="2020-08-01T20:36:22Z" finished-at="2020-08-01T20:36:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3136" started-at="2020-08-01T20:36:22Z" finished-at="2020-08-01T20:36:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="9203" started-at="2020-08-01T20:36:26Z" finished-at="2020-08-01T20:36:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="608" started-at="2020-08-01T20:36:35Z" finished-at="2020-08-01T20:36:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3210" started-at="2020-08-01T20:36:35Z" finished-at="2020-08-01T20:36:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8498" started-at="2020-08-01T20:36:39Z" finished-at="2020-08-01T20:36:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="607" started-at="2020-08-01T20:36:47Z" finished-at="2020-08-01T20:36:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3130" started-at="2020-08-01T20:36:48Z" finished-at="2020-08-01T20:36:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8335" started-at="2020-08-01T20:36:51Z" finished-at="2020-08-01T20:36:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="592" started-at="2020-08-01T20:36:59Z" finished-at="2020-08-01T20:37:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3150" started-at="2020-08-01T20:37:00Z" finished-at="2020-08-01T20:37:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8640" started-at="2020-08-01T20:37:03Z" finished-at="2020-08-01T20:37:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="593" started-at="2020-08-01T20:37:12Z" finished-at="2020-08-01T20:37:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3156" started-at="2020-08-01T20:37:12Z" finished-at="2020-08-01T20:37:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8896" started-at="2020-08-01T20:37:15Z" finished-at="2020-08-01T20:37:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="593" started-at="2020-08-01T20:37:24Z" finished-at="2020-08-01T20:37:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3144" started-at="2020-08-01T20:37:25Z" finished-at="2020-08-01T20:37:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8519" started-at="2020-08-01T20:37:28Z" finished-at="2020-08-01T20:37:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="592" started-at="2020-08-01T20:37:36Z" finished-at="2020-08-01T20:37:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3122" started-at="2020-08-01T20:37:37Z" finished-at="2020-08-01T20:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8313" started-at="2020-08-01T20:37:40Z" finished-at="2020-08-01T20:37:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="592" started-at="2020-08-01T20:37:48Z" finished-at="2020-08-01T20:37:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3146" started-at="2020-08-01T20:37:49Z" finished-at="2020-08-01T20:37:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8632" started-at="2020-08-01T20:37:52Z" finished-at="2020-08-01T20:38:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="593" started-at="2020-08-01T20:38:01Z" finished-at="2020-08-01T20:38:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3182" started-at="2020-08-01T20:38:01Z" finished-at="2020-08-01T20:38:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8428" started-at="2020-08-01T20:38:05Z" finished-at="2020-08-01T20:38:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="609" started-at="2020-08-01T20:38:13Z" finished-at="2020-08-01T20:38:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3138" started-at="2020-08-01T20:38:14Z" finished-at="2020-08-01T20:38:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8597" started-at="2020-08-01T20:38:17Z" finished-at="2020-08-01T20:38:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="592" started-at="2020-08-01T20:38:25Z" finished-at="2020-08-01T20:38:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3103" started-at="2020-08-01T20:38:26Z" finished-at="2020-08-01T20:38:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8513" started-at="2020-08-01T20:38:29Z" finished-at="2020-08-01T20:38:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="592" started-at="2020-08-01T20:38:38Z" finished-at="2020-08-01T20:38:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3156" started-at="2020-08-01T20:38:38Z" finished-at="2020-08-01T20:38:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8300" started-at="2020-08-01T20:38:41Z" finished-at="2020-08-01T20:38:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="608" started-at="2020-08-01T20:38:50Z" finished-at="2020-08-01T20:38:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3112" started-at="2020-08-01T20:38:50Z" finished-at="2020-08-01T20:38:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8465" started-at="2020-08-01T20:38:53Z" finished-at="2020-08-01T20:39:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="591" started-at="2020-08-01T20:39:02Z" finished-at="2020-08-01T20:39:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3175" started-at="2020-08-01T20:39:02Z" finished-at="2020-08-01T20:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8411" started-at="2020-08-01T20:39:06Z" finished-at="2020-08-01T20:39:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="592" started-at="2020-08-01T20:39:14Z" finished-at="2020-08-01T20:39:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3180" started-at="2020-08-01T20:39:15Z" finished-at="2020-08-01T20:39:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8168" started-at="2020-08-01T20:39:18Z" finished-at="2020-08-01T20:39:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="608" started-at="2020-08-01T20:39:26Z" finished-at="2020-08-01T20:39:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3114" started-at="2020-08-01T20:39:27Z" finished-at="2020-08-01T20:39:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8438" started-at="2020-08-01T20:39:30Z" finished-at="2020-08-01T20:39:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="593" started-at="2020-08-01T20:39:38Z" finished-at="2020-08-01T20:39:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3118" started-at="2020-08-01T20:39:39Z" finished-at="2020-08-01T20:39:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8503" started-at="2020-08-01T20:39:42Z" finished-at="2020-08-01T20:39:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="609" started-at="2020-08-01T20:39:50Z" finished-at="2020-08-01T20:39:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3105" started-at="2020-08-01T20:39:51Z" finished-at="2020-08-01T20:39:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8436" started-at="2020-08-01T20:39:54Z" finished-at="2020-08-01T20:40:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="595" started-at="2020-08-01T20:40:02Z" finished-at="2020-08-01T20:40:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3093" started-at="2020-08-01T20:40:03Z" finished-at="2020-08-01T20:40:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8589" started-at="2020-08-01T20:40:06Z" finished-at="2020-08-01T20:40:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="607" started-at="2020-08-01T20:40:15Z" finished-at="2020-08-01T20:40:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3135" started-at="2020-08-01T20:40:15Z" finished-at="2020-08-01T20:40:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8106" started-at="2020-08-01T20:40:19Z" finished-at="2020-08-01T20:40:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="607" started-at="2020-08-01T20:40:27Z" finished-at="2020-08-01T20:40:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3121" started-at="2020-08-01T20:40:27Z" finished-at="2020-08-01T20:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8952" started-at="2020-08-01T20:40:30Z" finished-at="2020-08-01T20:40:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="593" started-at="2020-08-01T20:40:39Z" finished-at="2020-08-01T20:40:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3127" started-at="2020-08-01T20:40:40Z" finished-at="2020-08-01T20:40:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8544" started-at="2020-08-01T20:40:43Z" finished-at="2020-08-01T20:40:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="608" started-at="2020-08-01T20:40:52Z" finished-at="2020-08-01T20:40:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3116" started-at="2020-08-01T20:40:52Z" finished-at="2020-08-01T20:40:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8814" started-at="2020-08-01T20:40:55Z" finished-at="2020-08-01T20:41:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="595" started-at="2020-08-01T20:41:04Z" finished-at="2020-08-01T20:41:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3107" started-at="2020-08-01T20:41:05Z" finished-at="2020-08-01T20:41:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8734" started-at="2020-08-01T20:41:08Z" finished-at="2020-08-01T20:41:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="594" started-at="2020-08-01T20:41:17Z" finished-at="2020-08-01T20:41:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3166" started-at="2020-08-01T20:41:17Z" finished-at="2020-08-01T20:41:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8466" started-at="2020-08-01T20:41:20Z" finished-at="2020-08-01T20:41:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="608" started-at="2020-08-01T20:41:29Z" finished-at="2020-08-01T20:41:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3112" started-at="2020-08-01T20:41:29Z" finished-at="2020-08-01T20:41:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8163" started-at="2020-08-01T20:41:32Z" finished-at="2020-08-01T20:41:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="592" started-at="2020-08-01T20:41:41Z" finished-at="2020-08-01T20:41:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3138" started-at="2020-08-01T20:41:41Z" finished-at="2020-08-01T20:41:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8402" started-at="2020-08-01T20:41:44Z" finished-at="2020-08-01T20:41:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="609" started-at="2020-08-01T20:41:53Z" finished-at="2020-08-01T20:41:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3121" started-at="2020-08-01T20:41:53Z" finished-at="2020-08-01T20:41:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8628" started-at="2020-08-01T20:41:57Z" finished-at="2020-08-01T20:42:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="612" started-at="2020-08-01T20:42:05Z" finished-at="2020-08-01T20:42:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3142" started-at="2020-08-01T20:42:06Z" finished-at="2020-08-01T20:42:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8049" started-at="2020-08-01T20:42:09Z" finished-at="2020-08-01T20:42:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="608" started-at="2020-08-01T20:42:17Z" finished-at="2020-08-01T20:42:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3132" started-at="2020-08-01T20:42:18Z" finished-at="2020-08-01T20:42:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8256" started-at="2020-08-01T20:42:21Z" finished-at="2020-08-01T20:42:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="607" started-at="2020-08-01T20:42:29Z" finished-at="2020-08-01T20:42:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3104" started-at="2020-08-01T20:42:30Z" finished-at="2020-08-01T20:42:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8510" started-at="2020-08-01T20:42:33Z" finished-at="2020-08-01T20:42:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="593" started-at="2020-08-01T20:42:41Z" finished-at="2020-08-01T20:42:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3130" started-at="2020-08-01T20:42:42Z" finished-at="2020-08-01T20:42:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8192" started-at="2020-08-01T20:42:45Z" finished-at="2020-08-01T20:42:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="592" started-at="2020-08-01T20:42:53Z" finished-at="2020-08-01T20:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3200" started-at="2020-08-01T20:42:54Z" finished-at="2020-08-01T20:42:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8424" started-at="2020-08-01T20:42:57Z" finished-at="2020-08-01T20:43:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="596" started-at="2020-08-01T20:43:05Z" finished-at="2020-08-01T20:43:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3159" started-at="2020-08-01T20:43:06Z" finished-at="2020-08-01T20:43:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8544" started-at="2020-08-01T20:43:09Z" finished-at="2020-08-01T20:43:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="621" started-at="2020-08-01T20:43:18Z" finished-at="2020-08-01T20:43:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3119" started-at="2020-08-01T20:43:18Z" finished-at="2020-08-01T20:43:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8278" started-at="2020-08-01T20:43:21Z" finished-at="2020-08-01T20:43:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="624" started-at="2020-08-01T20:43:30Z" finished-at="2020-08-01T20:43:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3153" started-at="2020-08-01T20:43:30Z" finished-at="2020-08-01T20:43:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8774" started-at="2020-08-01T20:43:33Z" finished-at="2020-08-01T20:43:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="593" started-at="2020-08-01T20:43:42Z" finished-at="2020-08-01T20:43:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3111" started-at="2020-08-01T20:43:43Z" finished-at="2020-08-01T20:43:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8110" started-at="2020-08-01T20:43:46Z" finished-at="2020-08-01T20:43:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="609" started-at="2020-08-01T20:43:54Z" finished-at="2020-08-01T20:43:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3160" started-at="2020-08-01T20:43:55Z" finished-at="2020-08-01T20:43:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8723" started-at="2020-08-01T20:43:58Z" finished-at="2020-08-01T20:44:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="592" started-at="2020-08-01T20:44:06Z" finished-at="2020-08-01T20:44:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3148" started-at="2020-08-01T20:44:07Z" finished-at="2020-08-01T20:44:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8938" started-at="2020-08-01T20:44:10Z" finished-at="2020-08-01T20:44:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="596" started-at="2020-08-01T20:44:19Z" finished-at="2020-08-01T20:44:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3127" started-at="2020-08-01T20:44:20Z" finished-at="2020-08-01T20:44:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8153" started-at="2020-08-01T20:44:23Z" finished-at="2020-08-01T20:44:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="607" started-at="2020-08-01T20:44:31Z" finished-at="2020-08-01T20:44:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3111" started-at="2020-08-01T20:44:32Z" finished-at="2020-08-01T20:44:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="9470" started-at="2020-08-01T20:44:35Z" finished-at="2020-08-01T20:44:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="611" started-at="2020-08-01T20:44:44Z" finished-at="2020-08-01T20:44:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3151" started-at="2020-08-01T20:44:45Z" finished-at="2020-08-01T20:44:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8458" started-at="2020-08-01T20:44:48Z" finished-at="2020-08-01T20:44:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="594" started-at="2020-08-01T20:44:56Z" finished-at="2020-08-01T20:44:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3114" started-at="2020-08-01T20:44:57Z" finished-at="2020-08-01T20:45:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8231" started-at="2020-08-01T20:45:00Z" finished-at="2020-08-01T20:45:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="608" started-at="2020-08-01T20:45:08Z" finished-at="2020-08-01T20:45:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3105" started-at="2020-08-01T20:45:09Z" finished-at="2020-08-01T20:45:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8821" started-at="2020-08-01T20:45:12Z" finished-at="2020-08-01T20:45:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="609" started-at="2020-08-01T20:45:21Z" finished-at="2020-08-01T20:45:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3154" started-at="2020-08-01T20:45:22Z" finished-at="2020-08-01T20:45:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8283" started-at="2020-08-01T20:45:25Z" finished-at="2020-08-01T20:45:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="592" started-at="2020-08-01T20:45:33Z" finished-at="2020-08-01T20:45:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3150" started-at="2020-08-01T20:45:34Z" finished-at="2020-08-01T20:45:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8324" started-at="2020-08-01T20:45:37Z" finished-at="2020-08-01T20:45:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="607" started-at="2020-08-01T20:45:45Z" finished-at="2020-08-01T20:45:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3122" started-at="2020-08-01T20:45:46Z" finished-at="2020-08-01T20:45:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8251" started-at="2020-08-01T20:45:49Z" finished-at="2020-08-01T20:45:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="593" started-at="2020-08-01T20:45:57Z" finished-at="2020-08-01T20:45:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3137" started-at="2020-08-01T20:45:58Z" finished-at="2020-08-01T20:46:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8829" started-at="2020-08-01T20:46:01Z" finished-at="2020-08-01T20:46:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="591" started-at="2020-08-01T20:46:10Z" finished-at="2020-08-01T20:46:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3103" started-at="2020-08-01T20:46:10Z" finished-at="2020-08-01T20:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8712" started-at="2020-08-01T20:46:13Z" finished-at="2020-08-01T20:46:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="607" started-at="2020-08-01T20:46:22Z" finished-at="2020-08-01T20:46:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3131" started-at="2020-08-01T20:46:23Z" finished-at="2020-08-01T20:46:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8508" started-at="2020-08-01T20:46:26Z" finished-at="2020-08-01T20:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="606" started-at="2020-08-01T20:46:34Z" finished-at="2020-08-01T20:46:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3124" started-at="2020-08-01T20:46:35Z" finished-at="2020-08-01T20:46:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8674" started-at="2020-08-01T20:46:38Z" finished-at="2020-08-01T20:46:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="593" started-at="2020-08-01T20:46:47Z" finished-at="2020-08-01T20:46:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3134" started-at="2020-08-01T20:46:47Z" finished-at="2020-08-01T20:46:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8614" started-at="2020-08-01T20:46:50Z" finished-at="2020-08-01T20:46:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="608" started-at="2020-08-01T20:46:59Z" finished-at="2020-08-01T20:47:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3127" started-at="2020-08-01T20:47:00Z" finished-at="2020-08-01T20:47:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8575" started-at="2020-08-01T20:47:03Z" finished-at="2020-08-01T20:47:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="592" started-at="2020-08-01T20:47:11Z" finished-at="2020-08-01T20:47:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testCases.GetQuote@13e39c73]" name="setupTest" is-config="true" duration-ms="3112" started-at="2020-08-01T20:47:12Z" finished-at="2020-08-01T20:47:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="purchaseProduct()[pri:0, instance:testCases.GetQuote@13e39c73]" name="purchaseProduct" duration-ms="8750" started-at="2020-08-01T20:47:15Z" finished-at="2020-08-01T20:47:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.GetQuote@13e39c73]" name="teardown" is-config="true" duration-ms="608" started-at="2020-08-01T20:47:24Z" finished-at="2020-08-01T20:47:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
