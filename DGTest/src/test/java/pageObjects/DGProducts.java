@@ -116,6 +116,8 @@ public class DGProducts extends PageBase {
 	//view the basket
 	@FindBy(xpath="(//a[@id='viewCartButton'])[1]")
 	private WebElement viewCart;
+	@FindBy(id="MiniShoppingCart_Label")
+	private WebElement openBasket;
 	public DGProducts viewCartFromShoppingPage() {
 		System.out.println("Click View Basket...");
 		PageBase.click(viewCart);

@@ -48,7 +48,7 @@ public class PageBase {
 		wait.until(ExpectedConditions.elementToBeClickable(elem));
 		Actions action = new Actions(driver);
 		action.sendKeys(Keys.ESCAPE).build().perform();
-		waiting(150);
+		waiting(100);
 	}
 
 	//fixed wait
